@@ -1,8 +1,8 @@
-title: Just the Docs Template
-description: A starter template for a Jeykll site using the Just the Docs theme!
+title: CU_scout_nav_docs
+description: Documentation for working with the Scout and Nav2 at Clarkson University
 theme: just-the-docs
 
-url: https://just-the-docs.github.io
+url: https://arcater.github.io/CU_scout_nav_docs
 
 aux_links:
-  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+  Template Repository: https://github.com/arcater/CU_scout_nav_docs
