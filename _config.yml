@@ -14,5 +14,7 @@ defaults:
 
 nav_enabled: true
 
+enable_copy_code_button: true
+
 aux_links:
   CU_scout_nav_docs Repository: https://github.com/arcater/CU_scout_nav_docs
