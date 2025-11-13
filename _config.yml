@@ -4,6 +4,14 @@ theme: just-the-docs
 
 url: https://arcater.github.io/CU_scout_nav_docs
 
+defaults:
+  - scope:
+      path: "docs" # an empty string here means all files in the project
+      type: "pages"
+    values:
+      layout: "default"
+
+
 nav_enabled: true
 
 aux_links:
