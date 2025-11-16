@@ -17,26 +17,22 @@ Link to Helios 16P user manual (3rd party site):
 
 ## Configuration
 
-The Robosense Helios-16P is connected to the PC via an ethernet cable. The network settings on the PC must be properly configured to successfully communicate with the LiDAR sensor. The default IP addresses for the sensor and PC can be found in the table below (taken from Helios-16P manual).
+The Robosense Helios-16P connects to the PC via an ethernet cable. The network settings on the PC must be properly configured to successfully communicate with the LiDAR sensor. The default IP addresses for the sensor and PC can be found in the table below (taken from Helios-16P manual).
 
 | Device       | Default IP        |
 |:-------------|:------------------|
 | Helios-16P   | 192.168.1.200     |
 | PC           | 192.168.1.102     |
 
-The program 'nmtui' can be run from the command line in Ubuntu to configure the network settings of the ethernet connection. Some important settings to note are:
-1. Set IPv4 configuration to “Manual” and enter the expected PC IP Address
+`nmtui` can be run from the command line in Ubuntu to configure the network settings of the ethernet connection. Some important settings to note are:
+1. Set IPv4 configuration to “Manual” and enter the expected PC IP address
 1. Enable the option “Never use this network for default route” (This prevents the PC from attempting to connect to the internet using this port)
 1. Enable “Require IPv4 addressing for this connection”
 1. Set IPv6 configuration to “Ignore”
 
-![](./images/robo-nmtui.png)
-
 ## Web Interface & Debugging
 
-The Helios-16P features a web interface that can be loaded from a web browser by typing in the IP address of the LiDAR sensor. From here various settings for the LiDAR sensor can be configured. This web interface is useful as a method to confirm successful communication between the LiDAR sensor and the PC. If this web interface does not load, then debugging is required. Ensure that the LiDAR is properly powered and connected to the PC. Programs such as “wireshark” can be used to analyze the messages coming from the LiDAR sensor to determine the IP of the sensor and the expected PC IP.
-
-![](./images/robo-web.png)
+The Helios-16P features a web interface that can be loaded from a web browser by typing in the IP address of the LiDAR sensor. From here various settings for the LiDAR sensor can be configured. This web interface is useful as a method to confirm successful communication between the LiDAR sensor and the PC. If this web interface does not load, then debugging is required. Ensure that the LiDAR is properly powered and connected to the PC. Programs such as `wireshark` can be used to analyze the messages coming from the LiDAR sensor to determine the IP of the sensor and the expected PC IP.
 
 ## ROS SDK
 
