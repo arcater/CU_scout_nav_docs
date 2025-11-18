@@ -29,6 +29,7 @@ The Robosense Helios-16P connects to the PC via an ethernet cable. The network s
 1. Enable the option “Never use this network for default route” (This prevents the PC from attempting to connect to the internet using this port)
 1. Enable “Require IPv4 addressing for this connection”
 1. Set IPv6 configuration to “Ignore”
+1. Use `ifconfig` to double check that the changes were applied. Deactivate/Activate the connection or reboot the PC to apply the changes
 
 ## Web Interface & Debugging
 

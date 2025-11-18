@@ -32,7 +32,7 @@ The uINS is an old sensor and is no longer supported with the latest SDK. As suc
 
 Steps to compile the Inertial Sense SDK:
 1. git clone the Inertial Sense SDK
-1. `git checkout tags/1.11.2` for SDK
+1. `git checkout tags/1.11.2` for the SDK
 1. In a seperate folder git clone [libusb]
 1. `git checkout tags/v1.0.26` for libusb
 1. Copy the `libusb` folder within the libusb repo to the inertial sense `src/libusb` folder
@@ -42,7 +42,7 @@ Steps to compile the Inertial Sense SDK:
 
 From here you can now use CMake to compile the SDK. The CLTool can serve as a test to confirm that everything compiles and runs smoothly. Consult the readmes in the CLTool or `ExampleProjects` folders for instructions on compilation.
 
-#@ ROS 2 Humble
+## ROS 2 Humble
 
 A custom NMEA message publisher and parser was written to enable ROS 2 support for the uINS. One piece of software uses the Inertial Sense SDK to publish NMEA messages from the sensor to a network port. Another program in the ROS environment parses these NMEA messages and publishes the appropriate sensor message topics. Consult the readmes of each repo for more more information.
 
