@@ -22,6 +22,7 @@ Installation instructions for the RealSense SDK and the ROS wrapper can be found
 ## RGBD image format
 
 RGB image encoding: bgr8
+
 Depth image encoding: 16UC1
 
 Each pixel in the depth image has a 16bit unsigned number associated with it representing the depth of that pixel in millimeters. If the depth reading is invalid for any reason, this value will be 0

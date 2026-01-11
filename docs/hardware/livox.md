@@ -17,7 +17,7 @@ Link to Livox user manual (3rd party site):
 
 ## Configuration
 
-The Livox HAP connects to the PC via an ethernet cable. The network settings on the PC must be properly configured to successfully communicate with the LiDAR sensor. The default IP address and subnet masks for the sensor and PC can be found in the table below (taken from the default config values from the ROS driver, double check your livox_ros_driver2/config/HAP_config.json)
+The Livox HAP connects to the PC via an ethernet cable. The network settings on the PC must be properly configured to successfully communicate with the LiDAR sensor. The default IP address for the sensor and PC can be found in the table below (taken from the default config values from the ROS driver, double check your livox_ros_driver2/config/HAP_config.json)
 
 | Device       | Default IP        |
 |:-------------|:------------------|
