@@ -36,9 +36,13 @@ The scout_description package is responsible for publishing information about th
 
 To quote to the most recent commit message for the scout_description xacro files, "initial commit, code compiles but not working yet". If you are working with a fresh install the xacro files will need to be updated.
 
+Working xacro files for scout 2 and mini:
+[https://github.com/arcater/CU_scout_description]
+
 ----
 
 [https://agilexrobotics.gitbook.io/scout2.0]: https://agilexrobotics.gitbook.io/scout2.0
 [https://agilexrobotics.gitbook.io/scout-mini]: https://agilexrobotics.gitbook.io/scout-mini
 [https://github.com/agilexrobotics/scout_ros2]: https://github.com/agilexrobotics/scout_ros2
 [https://github.com/westonrobot/ugv_sdk]: https://github.com/westonrobot/ugv_sdk
+[https://github.com/arcater/CU_scout_description]: https://github.com/arcater/CU_scout_description
